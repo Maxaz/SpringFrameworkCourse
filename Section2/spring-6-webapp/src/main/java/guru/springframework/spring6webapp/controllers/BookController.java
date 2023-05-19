@@ -13,11 +13,10 @@ public class BookController {
     public BookController(BookService bookService) {
         this.bookService = bookService;
     }
+
     @RequestMapping("/books")
-    public String getBooks(Model model){
-
+    public String getBooks(Model model) {
         model.addAttribute("books", bookService.findAll());
-
         return "books";
     }
 }
