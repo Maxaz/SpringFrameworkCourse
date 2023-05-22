@@ -55,7 +55,7 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.xmlunit:xmlunit-core:2.9.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:6.0.9" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:6.0.9" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-beans:6.0.9" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:6.0.9" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-beans:6.0.9" level="project" />
   </component>
 </module>
