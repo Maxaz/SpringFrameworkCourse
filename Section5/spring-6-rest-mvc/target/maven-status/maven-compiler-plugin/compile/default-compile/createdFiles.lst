@@ -1,0 +1,7 @@
+guru\springframework\spring6restmvc\services\BeerService.class
+guru\springframework\spring6restmvc\controller\BeerController.class
+guru\springframework\spring6restmvc\model\Beer$BeerBuilder.class
+guru\springframework\spring6restmvc\model\Beer.class
+guru\springframework\spring6restmvc\services\BeerServiceImpl.class
+guru\springframework\spring6restmvc\Spring6RestMvcApplication.class
+guru\springframework\spring6restmvc\model\BeerStyle.class
