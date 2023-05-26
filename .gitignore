@@ -1,8 +1,8 @@
 # ignoring folders
 .idea
 Section1
-Section2/target/
-Section3/target/
+Section2/**/target/
+Section3/**/target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
