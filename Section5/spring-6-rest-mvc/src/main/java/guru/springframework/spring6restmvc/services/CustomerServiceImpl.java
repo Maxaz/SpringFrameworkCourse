@@ -89,7 +89,7 @@ public class CustomerServiceImpl implements CustomerService {
     }
 
     @Override
-    public void patchBeerById(UUID id, Customer customer) {
+    public void patchCustomerById(UUID id, Customer customer) {
         Customer existing = customerMap.get(id);
 
         if (StringUtils.hasText(customer.getName())){

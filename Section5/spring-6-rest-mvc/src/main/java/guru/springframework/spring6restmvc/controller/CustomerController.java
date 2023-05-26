@@ -1,6 +1,5 @@
 package guru.springframework.spring6restmvc.controller;
 
-import guru.springframework.spring6restmvc.model.Beer;
 import guru.springframework.spring6restmvc.model.Customer;
 import guru.springframework.spring6restmvc.services.CustomerService;
 import lombok.AllArgsConstructor;
@@ -24,7 +23,7 @@ public class CustomerController {
     @PatchMapping("{customerid}")
     public ResponseEntity updateBeerPatchById(@PathVariable("customerid") UUID id, @RequestBody Customer customer){
 
-        customerService.patchBeerById(id, customer);
+        customerService.patchCustomerById(id, customer);
 
         return new ResponseEntity(HttpStatus.NO_CONTENT);
     }
