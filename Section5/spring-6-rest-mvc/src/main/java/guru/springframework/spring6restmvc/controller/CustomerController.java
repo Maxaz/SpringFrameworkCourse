@@ -21,8 +21,8 @@ public class CustomerController {
     private final CustomerService customerService;
 
     @RequestMapping(method = RequestMethod.GET)
-    public List<Customer> listCustomers(){
-        return customerService.listCustomers();
+    public List<Customer> listAllCustomers(){
+        return customerService.listAllCustomers();
     }
 
     @RequestMapping(value = "/{customerid}", method = RequestMethod.GET)
